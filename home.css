@@ -1,0 +1,40 @@
+#benvenuto {
+	margin-left: 50%;
+}
+
+#add {
+	margin-left: 50%;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 10%;
+	width: 20%;
+}
+
+#contenitore {
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: 25%;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 200px;
+    height: 250px;
+    border-radius: 30px;
+    text-align: center;
+    background-color: rgb(175, 126, 185);
+    align-items: center;
+}
+
+img {
+    width: 180px;
+    height: 180px;
+}
+
+.hidden {
+	display: none;
+}
+

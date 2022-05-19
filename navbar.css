@@ -1,0 +1,43 @@
+#navbar {
+	margin: 0;
+	padding: 0;
+	width: 20%;
+	background-color: #f1f1f1;
+	height: 100%;
+	position: fixed; 
+	border-left: 1px solid #555;
+	border-right: 1px solid #555;
+	top: 0;
+	left: 0;
+}
+
+.riga {
+	text-align: center;
+	border-bottom: 1px solid #555;
+}
+
+.riga a {
+	display: block;
+	color: #000;
+	padding: 8px 16px;
+	text-decoration: none;
+}
+
+.riga a:hover {
+	background-color: #555;
+	color: white;
+}
+
+#active {
+	color: white;
+	background-color: #ad37a4;
+}
+
+#logout {
+	position: fixed;
+	bottom: 0;
+	padding: 0;
+	width: 20%;
+	border-top: 1px solid rgb(213, 189, 226);
+	border-bottom: 2px solid rgb(213, 189, 226);
+}

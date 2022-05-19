@@ -1,0 +1,49 @@
+body {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	background-color: rgb(214, 144, 241);
+}
+
+p {
+	margin: 0.3em;
+}
+
+label {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+input {
+	margin-left: 0.5em;
+}
+
+#submit {
+	background-color: rgb(202, 231, 34);
+}
+
+#bottone {
+	margin-top: 1em;
+    height: 30px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	border: 1.5px solid rgb(241, 192, 199);
+}
+
+.incorrect {
+    border: 1px solid red;
+}
+
+.correct {
+    border: 1px solid rgb(150, 24, 175);
+}
+
+#link {
+	background-color: pink;
+	height: 30px;
+	width: 175px;
+	border-radius: 20%;
+}

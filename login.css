@@ -1,0 +1,45 @@
+body {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	background-color: rgb(199, 142, 216);
+}
+
+p {
+	margin: 0.3em;
+}
+
+label {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+input {
+	margin-left: 0.5em;
+}
+
+#submit {
+	background-color: rgb(216, 216, 93);
+}
+
+#bottone {
+	margin-top: 1em;
+    height: 30px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	border: 1.5px solid rgb(241, 192, 199);
+}
+
+#alert {
+	font-weight: bold;
+}
+
+#link {
+	background-color: pink;
+	height: 45px;
+	width: 170px;
+	border-radius: 20%;
+}

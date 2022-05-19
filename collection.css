@@ -1,0 +1,66 @@
+.buttonback {
+	position: fixed;
+	top: 3%;
+	right: 3%;
+}
+
+#contenitore {
+	margin-left: 50%;
+}
+
+.hidden {
+	display: none;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+button {
+	margin-bottom: 20px;
+}
+
+#elemento {
+	border: 1.5px solid rgb(138, 41, 151);
+	width: 30%;
+	margin-bottom: 10px;
+}
+
+#modalview.hidden {
+	display: none;
+}
+
+#modalview {
+  background-color: rgba(0, 0, 0, 0.664);
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0px;
+}
+
+#modalview img {
+  margin-left: 10%;
+  width: 600px;
+  height: 600px;
+}
+
+#title {
+  font-size: 50px;
+  text-align: center;
+  color: white;
+  font-family: PT Sans, sans-serif;
+}
+
+#prova {
+  font-size: 15px;
+  text-align: center;
+  color: white;
+  font-family: PT Sans, sans-serif;
+}
